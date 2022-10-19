@@ -3,7 +3,7 @@
   position: relative;
 }
 
-#navbar ul {
+#main-navbar ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -11,18 +11,18 @@
   display: inline-block
 }
 
-#navbar ul li {
+#main-navbar ul li {
   float: left;
 }
 
-#navbar ul li a {
+#main-navbar ul li a {
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
 }
 
-#navbar ul li a:hover {
+#main-navbar ul li a:hover {
   background-color: #000;
   text-decoration: underline overline;
 }
@@ -32,7 +32,6 @@
   position: relative;
   text-align: center;
 }
-
 #sidebar {
   background-color: red;
   position: fixed;
@@ -40,6 +39,7 @@
   width: 20%;
   height: 100%;
 }
+
 #sidebar-container ul {
   padding: 0;
 }
@@ -59,3 +59,4 @@
 #sidebar-container ul li a:hover {
   background-color: #000;
 }
+
